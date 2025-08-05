@@ -10,6 +10,7 @@ its made of bash script and python it's simple top use and automate your work af
 ## How to install it.
 ```
 git clone https://github.com/Ronaplanet/cyberkiddle.git
+cd cyberkiddle
 chmod +x cyberkid.sh
 bash cyberkid.sh
 ```
