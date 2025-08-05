@@ -1,7 +1,7 @@
 # cyberkiddle
 Hi! am cyber security and ethical hacker, I have veen working in ethical hacking and active directory and find out this might simplify my work in enumarating and fast techpath uin Active directory its a damn lazyActive directory script.
 
-Active Direcory and Local file inclusion [LFI]
+Active Direcory, Web application Fire wall [WAF] and Local file inclusion [LFI]
 
 
 This its the Active directory lazy tool to simplify the work in hacking,
