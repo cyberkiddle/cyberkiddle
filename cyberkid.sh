@@ -51,7 +51,7 @@ sudo chmod +x kittle/*
 spd-say "hey"
 echo -e "\e[1;32m"
 echo -e "[+] Choose by number the action to perform\n"
-echo -e "[1] AD-NPusers\t\t[2]AD-bloodhound\t[3]AD-dcsync\n[4] Hashcat-NTusers\t[5]Hashcat-kebroute\t[6]AD-kerberoust\n[7]AD-launchblood-hound\t[8]AD-pass The hash\t[9]AD-passwd spray\n[10]Pass-The-hash2\t[11]WAF fast test\t[12] Netscanner\n[13] Kerbote user enum\t[14]Scan and data collection\n[15]AD Nmap_user_enum"
+echo -e "[1] AD-NPusers\t\t[2]AD-bloodhound\t[3]AD-dcsync\n[4] Hashcat-NTusers\t[5]Hashcat-kebroute\t[6]AD-kerberoust\n[7]AD-launchblood-hound\t[8]AD-pass The hash\t[9]AD-passwd spray\n[10]Pass-The-hash2\t[11]WAF fast test\t[12] Netscanner\n[13] Kerbote user enum\t[14]Scan and data collection\n[15]AD Nmap_user_enum\n[16]LFI-php-filter-gen"
 
 echo -e "\e[1;30m"
 read -p "What do you want to do: " number
